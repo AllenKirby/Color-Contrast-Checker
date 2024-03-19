@@ -64,9 +64,9 @@ const Container = () => {
     }, [color1 , color2]) 
 
   return (
-    <section className="w-1/3 h-auto rounded-2xl shadow-black shadow-2xl bg-gradient-to-br from-yellow-400 to-pink-600 ">
+    <section className="md:w-1/3 w-full h-auto rounded-2xl shadow-black shadow-2xl bg-gradient-to-br from-yellow-400 to-pink-600 ">
         <header className="w-full h-auto py-10 flex items-center justify-center"> 
-            <p className="font-bold text-4xl text-white font-mono">COLOR CONTRAST CHECKER</p>
+            <p className="md:text-4xl font-bold text-2xl text-white font-mono">COLOR CONTRAST CHECKER</p>
         </header>
         <section className="w-full flex">
             <div className="px-14 py-5 w-1/2">
@@ -91,7 +91,7 @@ const Container = () => {
             </div>
         </section>
         <section className="w-full h-aut  o px-14 py-8 flex items-center justify-center">
-            <p className={`text-white text-3xl font-bold px-11 py-9 ${ratingBgColor} rounded-2xl`}>{rating}</p>
+            <p className={`text-white text-3xl font-bold px-8 py-9 ${ratingBgColor} rounded-2xl`}>{rating}</p>
         </section>
     </section>
   )
