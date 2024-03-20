@@ -94,7 +94,7 @@ const Container = () => {
           </div>
         </section>
         <section className="w-full h-auto px-14 pb-8 pt-3 text-center">
-          <p className="rounded-xl py-4 px-9 text-xl" style={{backgroundColor: color2, color: color1}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+          <p className="rounded-xl py-4 px-9 text-xl font-semibold" style={{backgroundColor: color2, color: color1}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           <p className="text-white text-6xl my-5">{contrast}</p>
           <p className={`text-white text-3xl font-bold px-8 py-9 ${ratingBgColor} rounded-2xl`}>{rating}</p>
         </section>
